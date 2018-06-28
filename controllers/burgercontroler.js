@@ -3,12 +3,12 @@ const router = express.Router()
 const burger = require("../models/burger.js");
 
 router.get("/", function(req, res){
-    console.log(req.body);
+    // console.log(req.body);
     res.redirect("/burgers")
 })
 
 router.get("/burgers", function(req, res){
-    console.log(req);
+    // console.log(req);
     burger.all(function (burgerData){
         console.log(burgerData);
         res.render("index", {burger_data: burgerData})
