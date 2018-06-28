@@ -1,9 +1,9 @@
 {
     "development": {
-      "username": "root",
-      "password": "",
-      "database": "burger_sequelize_db",
-      "host": "127.0.0.1",
+      "username": "jveftc5thv2gyvo3",
+      "password": "y2rcd5glqt46mtf4",
+      "database": "vyrumsohuyhaoltl",
+      "host": "o677vxfi8ok6exrd.cbetxkdyhwsb.us-east-1.rds.amazonaws.com s",
       "dialect": "mysql"
     },
     "production": {
